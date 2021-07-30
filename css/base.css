@@ -1,0 +1,200 @@
+/*p{*/
+
+
+/*    color:green;*/
+
+
+/*}*/
+
+.color {
+    color: rgb(51, 204, 0)
+}
+
+.back-img {
+    background-image: url(../images/car-1.jpg);
+    height: 500px;
+    width: 400px;
+}
+
+.foreground-text {
+    font-size: 39px;
+    color: white;
+}
+
+.container img {
+    width: 80%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.background-repeat-x {
+    background-image: url(../images/avatar/avatar-1.jpg);
+    height: 500px;
+    background-repeat: repeat-x;
+    background-size: 200px 100px;
+}
+
+.background-repeat-y {
+    background-image: url(../images/avatar/avatar-1.jpg);
+    height: 800px;
+    width: 600px;
+    background-repeat: repeat-y;
+    color: blue;
+}
+
+.container {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.top-right {
+    position: absolute;
+    top: 2%;
+    right: 20%;
+    font-size: 18px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 18px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 20%;
+    font-size: 18px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.ok {
+    /* position: fixed; */
+    border: 2px solid;
+}
+
+#p1 {
+    position: relative;
+    color: red;
+    font-family: Arial;
+}
+
+#p2 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+.boxModel{
+    background-color: gray;
+    width:50%;
+    padding:10%;
+    border:2rem solid green;
+}
+@media  screen and (max-width:600px) {
+    .boxModel{
+        background-color: yellow;
+        width:300px;
+        padding:10%;
+        border:2rem solid red;
+    }
+}
+.Flexbox{
+height: 900px;
+background-color: white;
+align-items: center;
+text-align: center;
+
+}
+.Header{
+    width:100%;
+    height:100px;
+    background-color: burlywood;
+    line-height: 6;
+    
+}
+main{
+    height: 80%;
+    /* background-color: chocolate; */
+    display: flex;
+    margin: 20px 0;
+    line-height: 50;
+    
+
+}
+.footer{
+
+    width: 100%;
+    background-color: burlywood;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.Secondly{
+    width:25%;
+    background-color:plum;
+    margin-right: 15px;
+
+}
+.content{
+    vertical-align: middle;
+    width:50%;
+    background-color:skyblue;
+    margin-right: 10px;  
+}
+.aside{
+    width:25%;
+    background-color: rgb(51, 204, 0);
+}
+.box1{
+    padding:30px;
+    background: skyblue;
+
+}
+.box2{
+    padding:15px;
+    background: blue;;
+}
+.box3{
+background-color: sandybrown;
+padding:50px;
+border:60px solid seagreen
+
+
+}
+.mediaquery{
+    width:500px;
+    height: 600px;
+}
+@media screen and (max-width:500px) {
+    .mediaquery{
+        font-size: 10px;
+        background-color: blue;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .mediaquery{
+        font-size: 20px;
+        background-color: red;
+    }
+    
+}
+@media screen and (min-width:601px) {
+    .mediaquery{
+        font-size: 30px;
+        background-color: green;
+    }
+    
+}

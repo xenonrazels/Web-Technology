@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 a)</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            background-color: rgb(36, 235, 36);
+            color:white;
+        }
+        audio{
+            border:1px solid green;
+        }
+        video{
+            border:2px solid  gray;
+            
+        }
+    </style>
+</head>
+<body>
+   <div>
+       <table border="1px">
+           <caption style="color: rgb(74, 74, 255); font-weight: bolder;">My Gallery</caption>
+           <thead>
+               <th>Audio List</th>
+               <th>Video List</th>
+           </thead>
+           <tbody>
+               <tr>
+                    <td>
+                        <audio   controls muted>
+                            <source src="aud.mp3">
+                        </audio>
+                    
+                        
+                        <audio   controls muted>
+                            <source src="aud.mp3">
+                        </audio>
+                    </td>
+                    
+                    <td>
+                        <div>
+                            <video width =40%   controls>
+                                <source src ="aud.mp3">
+                            </video> 
+                                <video width=40%   controls>
+                                    <source src="aud.mp3">
+                                </video>
+                        </div>
+                    </td>
+               </tr>
+               <tr>
+                <td colspan="2">
+                    <audio muted  controls>
+                        <source src="aud.mp3">
+                    </audio>
+                    <audio  muted controls>
+                        <source src="aud.mp3">
+                    </audio>
+                </td>
+               </tr>
+               
+           </tbody>
+
+       </table>
+   </div>
+</body>
+</html>

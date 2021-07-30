@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(57, 129, 29);;
+}
+.olistContent{
+    background-color: #FBE5E5;
+    border:20px solid #F29898;
+    border-radius: 10px;
+    margin-left: -25px;
+}
+li{
+    line-height: 2;
+    
+}
+h3{
+    text-shadow: 2px 2px  red;
+}
+.ulistContent{
+    border:20px solid rgb(52, 152, 247);
+    background-color:rgb(52, 152, 247);
+    border-radius: 10px;
+    margin-left:-25px
+
+}
+ul li{
+    background-color: aqua;
+    margin: 5px;;
+}
