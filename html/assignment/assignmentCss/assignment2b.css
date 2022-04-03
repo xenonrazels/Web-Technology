@@ -1,0 +1,29 @@
+.body{
+    margin:5px 5px 5px 5px;
+}
+ul {
+    list-style: none;
+}
+.footer>ul>li{
+    display:inline-flex;
+    width:30%;
+    
+}
+main{
+    display: flex;
+}
+.main>.sidebar{
+    display: flexbox;
+    width: 20%;  
+}
+.main>.article-section{
+    display: flexbox;
+    width: 80%;
+}
+.gallery>img{
+    max-width: 49%;
+    max-height: 70px;
+}
+.sidebar{
+    margin-left: 5px;;
+}
